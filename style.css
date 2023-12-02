@@ -1,0 +1,754 @@
+@import url("https://use.typekit.net/xhb3pxv.css");
+@import url("https://use.typekit.net/xhb3pxv.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    background-color: white;
+    height: 200px;
+    z-index: 1;
+}
+
+.flogo{
+ width: 90px;
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    margin-top: 0%;
+    padding-top: 10px;
+    color: white;
+    font-family: "Amandine", sans-serif;
+    font-size: 30px;
+
+}
+
+
+nav{
+   word-spacing: 100px;
+   text-align: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: "arboria", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;   
+    color: black;
+    letter-spacing: 7px;
+    background-color:rgba(226, 225, 223, 0.237);
+    font-size: 12px;
+
+}
+
+.compra{
+    width: 12px;
+    background-color:rgba(226, 225, 223, 0.237);
+
+}
+
+
+main{
+    width: 960px;
+    min-height: 600px;
+    margin: auto;
+}
+
+
+.imagenes{
+    text-align: center;
+
+}
+
+.foto1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 960px;
+    
+}
+
+.barra{
+    background-color: rgb(227, 211, 191);
+    margin-top: 50px;
+    word-spacing: 50px;
+}
+
+.envios{
+    width: 200px;
+}
+
+.envios:hover{
+    transform: translateY(-8px);
+    transition: all ease 1s;
+    width: 200px;
+}
+
+.seguro{
+    width: 200px;
+}
+
+.seguro:hover{
+    transform: translateY(-8px);
+    transition: all ease 1s;
+    width: 200px;
+}
+
+.calidad{
+    width: 200px;
+}
+
+.calidad:hover{
+    transform: translateY(-8px);
+    transition: all ease 1s;
+    width: 200px;
+}
+
+
+.texto1{
+    background-color: rgba(236, 239, 243, 0.146);
+    border-radius: 2px;
+    padding: 15px 32px;
+
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Arboria', sans-serif;
+    width: 960px;
+    height: 330px;
+   text-align: justify;
+
+}
+
+
+.inspo{
+    margin-bottom: 5px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+
+h2{
+    font-family: "amandine", sans-serif;
+    font-size: 50px;
+    text-align: center;
+  
+}
+
+.femmina{
+    font-family: "amandine", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.texto2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    padding: 20px 32px;
+    width:960px;
+    height: 190px;
+   
+
+    margin-bottom: 45px;
+    font-family: 'Arboria', sans-serif;
+    text-align: justify;
+    color: white;
+    margin-top: 10px;
+    
+    
+}
+
+h3{
+    font-family: "arboria", sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.galeria1{
+    margin-top: 50px;
+    text-align: center;
+    word-spacing:25px;
+
+}
+
+.corrector{
+    width: 250px;
+}
+
+.corrector:hover{
+    box-shadow: 0px 8px 10px 1px rgb(194, 182, 166);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.sombras{
+    width: 253px;
+}
+
+.sombras:hover{
+    box-shadow: 0px 8px 10px 1px rgb(194, 182, 166);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.serum{
+    width: 250px;
+    height: 406px;
+}
+
+.serum:hover{
+    box-shadow: 0px 8px 10px 1px rgb(194, 182, 166);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.descripcion{
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 75px;
+    margin-bottom: 60px;
+}
+
+.precios{
+    width: 200px;
+}
+
+.precios:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.precioc{
+    width: 200px;
+}
+
+.precioc:hover{
+  
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.preciom{
+    width: 200px;
+}
+
+.preciom:hover{
+    
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.foto3{
+    margin-top: 20px;
+    text-align: center;
+    width: 960px;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 60px;
+    padding: 40px 80px;
+    height: 600px;
+    text-align: center;
+}
+
+
+.fem{
+    width: 300px;
+}
+
+
+h5{
+    color: white;
+    font-family: "amandine", sans-serif;
+    font-size: 20px;
+   
+}
+
+h6{
+    color: rgb(223, 193, 166);
+    font-family: "amandine", sans-serif;
+    font-size: 19px;
+}
+
+.columnas{
+    margin-top: 50px;
+    width: 960px;
+    text-align: center;
+    margin: auto;
+}
+
+.pc{
+    color: white;
+    font-family: 'Arboria', sans-serif;
+}
+
+.colum{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+   
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.p1{
+    color: white;
+    font-family: 'Arboria', sans-serif;
+}
+
+.social{
+    margin-top: 30px;
+    color: rgb(223, 193, 166);
+    font-family: 'Arboria', sans-serif;
+}
+
+footer.redessociales{
+    list-style: none;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.face{
+    width: 30px;
+}
+.insta{
+    width: 30px;
+}
+.pin{
+    width: 30px;
+}
+.tik{
+    width: 30px;
+}
+
+.chat{
+  
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.wtp{
+    width: 40px;
+}
+
+
+
+.cp{
+    margin-top: 30px;
+    color: rgb(215, 215, 215);
+    font-family: 'Arboria', sans-serif;
+    font-size: 5%;
+}
+
+.subir{
+    text-align: left;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.mantenimiento{
+    text-align: center;
+}
+
+.ojos{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+h8{
+    color: rgb(3, 0, 0);
+    margin-top: 10px;
+    font-family: 'Arboria', sans-serif;
+    font-size: 60px;
+}
+
+h9{
+    text-align: center;
+    color: rgb(3, 0, 0);
+    font-family: 'Amandine', sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.pm{
+    color: rgb(3, 0, 0);
+    font-family: 'Arboria', sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.pm2{
+    color: rgb(3, 0, 0);
+    font-family: 'Arboria', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.fotogrande{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 960px;
+}
+
+h12{
+    color: rgb(197, 171, 138);
+    font-family: 'Amandine', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.categorias{
+    text-align: center;
+    margin-top: 25px;
+    word-spacing: 20px;
+    
+}
+
+.eyes{
+    width: 300px;
+}
+.eyes:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.cejas{
+    width: 300px;
+}
+.cejas:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+.slogan{
+    color: rgb(0, 0, 0);
+    font-family: 'Arboria', sans-serif;
+    font-size: 25px;
+    margin-top: 4%;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.textolargo{
+    text-align: center;
+    
+
+}
+
+.texto3{
+    background-color: rgba(214, 200, 176, 0.779);
+    border-radius: 2px;
+    padding: 15px 32px;
+
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Arboria', sans-serif;
+    width: 440px;
+   text-align: justify;
+   margin-bottom: 5px;
+   margin-top: 30px;
+
+   margin-right: 20px;
+   display: inline-block;
+}
+
+.texto4{
+    background-color: rgba(214, 200, 176, 0.779);
+    border-radius: 2px;
+    padding: 15px 32px;
+
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Arboria', sans-serif;
+    width: 440px;
+   text-align: justify;
+   display: inline-block;
+}
+
+
+.eyesp{
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    height: 900px;
+    margin-top: 40px;
+    padding: 15px 32px;
+
+}
+
+
+h10{
+    color: rgb(0, 0, 0);
+    font-family: 'Amandine', sans-serif;
+    font-size: 45px;
+    letter-spacing: 30px;
+
+}
+
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+.galeria1productos{
+    text-align: center;
+    word-spacing: 30px;
+    margin-top: 30px;
+}
+
+
+.cpro{
+
+    background-color: rgba(212, 210, 207, 0.491);
+    height: 300px;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+  
+}
+.cpro:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+
+.ppro{
+    background-color: rgba(212, 210, 207, 0.491);
+    height: 300px;
+    width: 170px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.ppro:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+
+.spro{
+    background-color: rgba(212, 210, 207, 0.491);
+    height: 300px;
+    width: 170px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.spro:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+
+.sepro{
+    background-color: rgba(212, 210, 207, 0.491);
+    height: 300px;
+    width: 170px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.sepro:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+h11{
+    color: rgb(0, 0, 0);
+    font-family: 'arboria', sans-serif;
+    font-size: 14px;
+}
+
+
+.dpro{
+    background-color: rgba(212, 210, 207, 0.491);
+    height: 300px;
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.dpro:hover{
+    box-shadow: 0px 8px 10px 1px rgb(82, 80, 76);
+    transform: translateY(-8px);
+    transition: all ease 1s;
+}
+
+
+.barrapreciosprod{
+word-spacing: 60px;
+margin-top: 10px;
+}
+
+.priceco{
+    width: 140px;
+}
+.pricemas{
+    width: 140px;
+}
+.pricesom{
+    width: 140px;
+}
+.priceser{
+    width: 140px;
+}
+
+
+.galeria2productos{
+    text-align: center;
+    word-spacing: 50px;
+    margin-top: 30px;
+}
+
+
+.barrapreciosprod2{
+    text-align: center;
+    word-spacing: 70px;
+    margin-top: 10px;
+    }
+
+
+.pricelin{
+    width: 140px; 
+}
+.pricesomnu{
+    width: 140px; 
+}
+.pricesomrai{
+    width: 140px; 
+}
+
+.botonsubir{
+    text-align: right;
+    width: 16px;
+}    
+
+
+.eyesp2{
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    height: 510px;
+    margin-top: 40px;
+    padding: 15px 32px;
+    margin-bottom: 80px;
+
+}
+
+
+.pricela{
+    width: 140px;
+}
+.pricefix{
+    width: 140px;
+}
+.pricegel{
+    width: 140px;
+}
+.priceeye{
+    width: 140px;
+}
+
+
+.galeria3productos{
+    text-align: center;
+    word-spacing: 30px;
+    margin-top: 30px;
+}
+
+
+.marcas{
+    margin-top: 30px;
+    word-spacing: 70px;
+}
+
+
+.dou{
+    width: 150px;
+}
+.blush{
+    width: 165px;
+}
+.seph{
+    width: 190px;
+}
+
+
+.ojos{
+    width: 500px;
+}
+
+.instablack{
+    width: 40px;
+}
+
+.datos{
+    color: rgb(196, 193, 193);
+    font-family: 'Arboria', sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.datos2{
+    color: rgb(196, 193, 193);
+    font-family: 'Arboria', sans-serif;
+    font-size: 11px;
+
+}
+
+.up{
+    width: 20px;
+}
